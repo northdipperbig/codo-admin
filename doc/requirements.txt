@@ -1,7 +1,7 @@
 fire
 shortuuid
 cryptography
-jwt
+pyjwt
 ldap3
 pyotp
 python-dateutil
