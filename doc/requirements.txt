@@ -1,3 +1,8 @@
+fire
+shortuuid
 cryptography
+jwt
+ldap3
 pyotp
 python-dateutil
+aliyun-python-sdk-dysmsapi

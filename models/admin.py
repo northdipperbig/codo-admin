@@ -137,3 +137,22 @@ class RoleFunctions(Base):
     role_id = Column('role_id', String(11))
     func_id = Column('func_id', String(11))
     status = Column('status', String(5), default='0')
+
+
+class Links(Base):
+    __tablename__ = 'mg_links'
+
+    ### 链接表
+    id = Column('id', Integer, primary_key=True, autoincrement=True)
+    links_group = Column("links_group", Integer)
+    links_name = Column("links_name", String(50))
+    links_url = Column("links_url", String(255))
+    links_remarks = Column("links_remarks", String(255))
+
+class LinksGroup(Base):
+    __tablename__ = 'mg_links_groups'
+
+    ###链接分组表
+    id = Column('id', Integer, primary_key=True, autoincrement=True)
+    group_name = Column("group_name", String(50))
+    group_remarks = Column("group_remarks", String(255))
