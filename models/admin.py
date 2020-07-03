@@ -148,6 +148,9 @@ class Links(Base):
     links_name = Column("links_name", String(50))
     links_url = Column("links_url", String(255))
     links_remarks = Column("links_remarks", String(255))
+    links_user = Column("links_user", String(50))
+    links_password = Column("links_password", String(255))
+
 
 class LinksGroup(Base):
     __tablename__ = 'mg_links_groups'

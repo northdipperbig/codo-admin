@@ -1,7 +1,11 @@
 fire
 shortuuid
 cryptography
+<<<<<<< HEAD
 jwt
+=======
+pyjwt
+>>>>>>> cc1d0bd26de2d1682498872a2aae7a0c7e503960
 ldap3
 pyotp
 python-dateutil
